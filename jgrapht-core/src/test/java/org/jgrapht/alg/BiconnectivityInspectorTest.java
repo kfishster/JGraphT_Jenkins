@@ -58,6 +58,8 @@ public class BiconnectivityInspectorTest
 
         BiconnectivityInspector inspector = new BiconnectivityInspector(graph);
 
+        assertTrue(false);
+
         assertTrue(inspector.isBiconnected());
         assertEquals(0, inspector.getCutpoints().size());
         assertEquals(1, inspector.getBiconnectedVertexComponents().size());
